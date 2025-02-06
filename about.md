@@ -69,6 +69,12 @@ nav_order: 1
 
 ---
 
+## Awards
+- **Australian Financial Review’s Top 100 Future Leaders** *2024*
+- **French Embassy’s Nicolas Baudin Internship Grant** *2025*
+- **South Australian Certificate of Education Merit Award** *2019*
+
+---
 ## Programming Projects
 
 ### **Detecting Intent of Emails Using Transfer Learning**  
@@ -81,22 +87,15 @@ nav_order: 1
 
 ---
 
-## Awards
-- **Australian Financial Review’s Top 100 Future Leaders** *2024*
-- **French Embassy’s Nicolas Baudin Internship Grant** *2025*
-- **South Australian Certificate of Education Merit Award** *2019*  
-
----
-
 ## Skills
 
 ### **Programming:**  
-- Python, C++, MATLAB (Proficient)  
+- Python, C++, MATLAB, Modelia (Proficient)  
 - C, JavaScript, Java, SQL (Familiar)  
 
 ### **Software:**  
 - **CAD Tools:** Inventor, Onshape, AutoCAD, CATIA  
-- **Analysis Tools:** NASTRAN, ANSYS, Strand7, Modelica  
+- **Analysis Tools:** NASTRAN, ANSYS, Strand7, Dymola
 - **Office Tools:** Microsoft Word, Excel, Bluebeam  
 
 ### **Languages:**  
@@ -128,8 +127,4 @@ nav_order: 1
 - maastricht.studenten.vereniging Incognito (Member)  
 
 ---
-
-
-## Contact Me    
-- **Email:** [linhcobui182@gmail.com](mailto:linhcobui182@gmail.com)  
-- **LinkedIn:** [linkedin.com/in/linh-co-bui-755841192](https://linkedin.com/in/linh-co-bui-755841192)
+email: linhcobui182@gmail.com
