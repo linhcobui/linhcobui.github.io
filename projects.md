@@ -20,4 +20,6 @@ nav_order: 1
   </div>
 </div>
 
+High frequency vibrations onboard small and nano satellites are an issue - especially in the case of Space Domain Awareness missions. This novel end-to-end neuromorphic hardware and software allows for asynchoronous detection and control of these high frequency perburations. The asynchoronous hardware such as Loihi 2 chip allows for power savings in the order of magnitudes onboard satellites.
+
 ---
