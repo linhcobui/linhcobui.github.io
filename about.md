@@ -1,5 +1,5 @@
 ---
-title: resume/cv
+title: resume
 layout: default
 nav_order: 1
 ---
