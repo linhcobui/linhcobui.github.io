@@ -1,5 +1,5 @@
 ---
-title: About me
+title: resume/cv
 layout: default
 nav_order: 1
 ---
