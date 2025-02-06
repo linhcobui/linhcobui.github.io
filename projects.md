@@ -28,8 +28,8 @@ nav_order: 1
     <img src="star-tracking.png" alt="." style="width: 100%; height: auto;">
     <p style="text-align: justify;">Engineers are swamped with data to manage when carrying out their duties. Technical reports, mechanical datasheets, company regulations, national and international standards. Using NLP, embeddings, and large language models, the search space for the relevant data regarding the engineers' current task can be significantly narrowed, allowing for smart search of documents, drawings, tables and scanned handwritten notes from operators. Paired with a chatbot, this can provide the basis for a retrieval augmented generation powered agent to help engineers perform tasks such as writing an inspection report.</p>
     <ul>
-      <li>Developed with the Massachusets Institute of Technology Media Lab</li>
-      <li>Human Dynamics lab via MIT bigdata living lab</a></li>
+      <li>Developed as internship @ the Massachusets Institute of Technology Media Lab</li>
+      <li>Human Dynamics lab via MIT bigdata living lab</li>
     </ul>
   </div>
 </div>
