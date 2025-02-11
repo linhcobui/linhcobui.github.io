@@ -1,4 +1,4 @@
-title: linhco's blog
+title: linh co's blog
 author:
   name: me
   email: linhcobui182@gmail.com
@@ -6,7 +6,7 @@ author:
 # The `>` after `description:` means to ignore line-breaks until next key.
 # If you want to omit the line-break after the end of text, use `>-` instead.
 description: >
-  ramblings of linh co bui - no views shared by me employer, if i have an employer XD
+  ramblings of linh co bui - no views shared by me employer, if i have an employer haha
 
 # Build settings
 
