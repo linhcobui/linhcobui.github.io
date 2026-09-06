@@ -13,8 +13,14 @@
 # you will see them accessed via {{ site.title }}, {{ site.github_repo }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Swiss Jekyll Theme
-description: A bold typographic theme inspired by Swiss design.
+title: "Linh‑Co Bui"
+description: "Linh‑Co Bui — Master of Science in Robotics."
+linkedin: "https://www.linkedin.com/in/linh-co-bui/"
+google_scholar: "https://scholar.google.com/citations?user=v8mCs-sAAAAJ&hl=en&oi=ao"
+bio:
+	- "Hi, I'm Linh‑Co Bui. I'm a Master of Science in Robotics student at Carnegie Mellon University's Robotics Institute. I work with Prof. Andrea Bajcsy (https://www.cs.cmu.edu/~abajcsy/) at the Interactive and Trustworthy Robotics Lab (https://cmu-intentlab.github.io/). My research interests lie between robotic safety, uncertainty modelling and memory."
+	- "I did my undergraduate studies at the University of Adelaide (Now Adelaide University). In 2026, I had the honor of receiving the General Sir John Monash Scholarship, which allowed me to pursue my graduate studies at CMU."
+wip: true
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 github_repo: jekyll # the GitHub repo name for your project
