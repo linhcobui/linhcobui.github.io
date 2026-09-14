@@ -2,6 +2,7 @@
 layout: post
 title:  "Markdown sample"
 date:   2016-09-04
+published: false  # demo post from the theme; set true or delete to publish
 ---
 
 ### Markdown test document

@@ -3,6 +3,7 @@ layout: category-post
 title:  "Welcome to Jekyll!"
 date:   2016-08-05 20:20:56 -0400
 categories: writing
+published: false  # demo post from the theme; set true or delete to publish
 ---
 You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
 
