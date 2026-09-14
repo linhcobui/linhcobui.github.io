@@ -13,23 +13,23 @@
 # you will see them accessed via {{ site.title }}, {{ site.github_repo }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: "Linh‑Co Bui"
-description: "Linh‑Co Bui — Master of Science in Robotics."
-linkedin: "https://www.linkedin.com/in/linh-co-bui/"
-google_scholar: "https://scholar.google.com/citations?user=v8mCs-sAAAAJ&hl=en&oi=ao"
-bio:
-	- "Hi, I'm Linh‑Co Bui. I'm a Master of Science in Robotics student at Carnegie Mellon University's Robotics Institute. I work with Prof. Andrea Bajcsy (https://www.cs.cmu.edu/~abajcsy/) at the Interactive and Trustworthy Robotics Lab (https://cmu-intentlab.github.io/). My research interests lie between robotic safety, uncertainty modelling and memory."
-	- "I did my undergraduate studies at the University of Adelaide (Now Adelaide University). In 2026, I had the honor of receiving the General Sir John Monash Scholarship, which allowed me to pursue my graduate studies at CMU."
-wip: true
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
-github_repo: jekyll # the GitHub repo name for your project
-github_username: jekyll
+title: Linh-Co Bui
+description: "MSR student at the Carnegie Mellon Robotics Institute. Robot safety, uncertainty modelling and memory."
 
-# Optional social link, you can choose from the following options:
-# twitter (default), instagram, medium, or dribbble
-social_link: twitter
-social_username: jekyllrb
+# Links shown in the right-hand column of the homepage.
+profile_links:
+  - name: LinkedIn
+    url: "https://www.linkedin.com/in/linh-co-bui/"
+  - name: Google Scholar
+    url: "https://scholar.google.com/citations?user=v8mCs-sAAAAJ&hl=en&oi=ao"
+
+# Set to false to drop the "Website in progress" note from the homepage.
+wip: true
+
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://linhcobui.github.io" # the base hostname & protocol for your site
+github_repo: linhcobui.github.io # the GitHub repo name for your project
+github_username: linhcobui
 
 # Set theme color here
 # Choose from: black (default), blue, gray, magenta, orange, red, white, and yellow.
