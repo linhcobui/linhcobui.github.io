@@ -2,11 +2,12 @@
   <div class="container mx-auto px-2">
     <p class="col-8 sm-width-full left py-2 mb-0">&copy; {{ site.time | date: "%Y" }} {{ site.title }}</p>
     <ul class="list-reset right clearfix sm-width-full py-2 mb-2 mb-lg-0">
-      {% for link in site.profile_links %}
       <li class="inline-block ml-2">
-        <a class="text-accent" href="{{ link.url }}">{{ link.name }}</a>
+        <a class="text-accent" href="{{ site.linkedin_url }}">LinkedIn</a>
       </li>
-      {% endfor %}
+      <li class="inline-block ml-2">
+        <a class="text-accent" href="{{ site.scholar_url }}">Google Scholar</a>
+      </li>
     </ul>
   </div>
 </div>

@@ -16,12 +16,9 @@
 title: Linh-Co Bui
 description: "MSR student at the Carnegie Mellon Robotics Institute. Robot safety, uncertainty modelling and memory."
 
-# Links shown in the right-hand column of the homepage.
-profile_links:
-  - name: LinkedIn
-    url: "https://www.linkedin.com/in/linh-co-bui/"
-  - name: Google Scholar
-    url: "https://scholar.google.com/citations?user=v8mCs-sAAAAJ&hl=en&oi=ao"
+# Profile links, shown as icons in the homepage header and in the footer.
+linkedin_url: "https://www.linkedin.com/in/linh-co-bui/"
+scholar_url: "https://scholar.google.com/citations?user=v8mCs-sAAAAJ&hl=en&oi=ao"
 
 # Set to false to drop the "Website in progress" note from the homepage.
 wip: true
@@ -33,7 +30,7 @@ github_username: linhcobui
 
 # Set theme color here
 # Choose from: black (default), blue, gray, magenta, orange, red, white, and yellow.
-theme_color: black
+theme_color: red
 
 # Build settings
 markdown: kramdown
