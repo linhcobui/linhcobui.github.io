@@ -1,0 +1,13 @@
+# Life updates, newest first. Shown between the header and the posts list.
+#
+# Each entry takes a free-text `date` and a `text` body. The body is rendered
+# as markdown, so links work as [label](https://example.com). Keep each entry
+# to a single paragraph.
+#
+# Delete every entry to hide the section entirely.
+
+- date: "Aug 2026"
+  text: "Started my Master of Science in Robotics at the [CMU Robotics Institute](https://www.ri.cmu.edu/), advised by [Prof. Andrea Bajcsy](https://www.cs.cmu.edu/~abajcsy/)."
+
+- date: "2026"
+  text: "Awarded the [General Sir John Monash Scholarship](https://www.johnmonash.com/)."

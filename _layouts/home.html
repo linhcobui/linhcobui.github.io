@@ -59,6 +59,26 @@
         </div>
       </header>
 
+      {% if site.data.updates and site.data.updates.size > 0 %}
+      <div class="container mx-auto px-2 py-4">
+        <div class="border-bottom-thick mb-2">
+          <h2 class="h5 bold uppercase mb-1">Updates</h2>
+        </div>
+        <ul class="list-reset mb-0">
+          {% for update in site.data.updates %}
+          <li class="clearfix border-bottom-thin py-2 prose">
+            <div class="col-2 sm-width-full left">
+              <span class="h5 bold text-accent">{{ update.date }}</span>
+            </div>
+            <div class="col-10 sm-width-full left">
+              {{ update.text | markdownify | remove: '<p>' | remove: '</p>' }}
+            </div>
+          </li>
+          {% endfor %}
+        </ul>
+      </div>
+      {% endif %}
+
       <div class="container mx-auto px-2 py-4">
         {% for post in site.posts %}
           {% include post_block.html %}
