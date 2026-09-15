@@ -45,12 +45,11 @@
             </div>
 
             <div class="col-4 sm-width-full left border-top-thin mt-3 mt-lg-0 ml-lg-4">
-              <div class="table">
-                <div class="inline-block mt-3">
-                  {% include dot.html %}
-                </div>
+              <div class="balls mt-3">
+                <span class="ball"></span>
+                <img class="ball" src="{{ '/assets/headshot.png' | prepend: site.baseurl }}" alt="Linh-Co Bui" width="270" height="270">
+                <span class="ball"></span>
               </div>
-              <img class="portrait mt-2" src="{{ '/assets/headshot.png' | prepend: site.baseurl }}" alt="Linh-Co Bui" width="375" height="469">
               {% if site.wip %}
               <p class="uppercase bold mt-3 mb-0">Website in progress</p>
               {% endif %}
