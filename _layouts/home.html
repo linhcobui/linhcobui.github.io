@@ -22,7 +22,7 @@
         </div>
 
         <div class="container mx-auto px-2 mb-2 clearfix header-text">
-          <h1 class="h0 inline-block col-9 sm-width-full py-4 mt-3 header-title">{{ site.title }}</h1>
+          <h1 id="site-name" class="h0 inline-block col-9 sm-width-full py-4 mt-3 header-title" data-name-latin="{{ site.title }}" data-name-vi="Bùi Linh Cơ" data-name-han="裴灵機">{{ site.title }}</h1>
 
           <div class="clearfix mb-4 py-1">
             <div class="col-7 sm-width-full left border-top-thin">
@@ -88,6 +88,22 @@
     </div>
 
     {% include footer.html %}
+
+    <script>
+      (function () {
+        var el = document.getElementById('site-name');
+        if (!el) return;
+        var latin = el.dataset.nameLatin;
+        var vi = el.dataset.nameVi;
+        var han = el.dataset.nameHan;
+        el.addEventListener('mouseenter', function () {
+          el.textContent = Math.random() < 0.75 ? vi : han;
+        });
+        el.addEventListener('mouseleave', function () {
+          el.textContent = latin;
+        });
+      })();
+    </script>
 
   </body>
 

@@ -41,7 +41,15 @@
 /* Theme color utilities */
 .header-background { background-color: $color-background; }
 .header-border { border-color: $color-foreground; }
-.header-title { color: $color-title; }
+.header-title {
+  color: $color-title;
+  font-size: 40px;
+  cursor: default;
+
+  @media (min-width: $breakpoint-lg) {
+    font-size: 72px;
+  }
+}
 .header-text { color: $color-foreground; }
 .header-social { fill: $color-foreground; }
 .header-social-accent { fill: $color-dot-accent; }
