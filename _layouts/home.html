@@ -96,23 +96,11 @@
         var latin = el.dataset.nameLatin;
         var vi = el.dataset.nameVi;
         var han = el.dataset.nameHan;
-        var HALF_TURN_MS = 260;
-        var timer;
-
-        function turnTo(text) {
-          clearTimeout(timer);
-          el.classList.add('is-turning');
-          timer = setTimeout(function () {
-            el.textContent = text;
-            el.classList.remove('is-turning');
-          }, HALF_TURN_MS);
-        }
-
         el.addEventListener('mouseenter', function () {
-          turnTo(Math.random() < 0.75 ? vi : han);
+          el.textContent = Math.random() < 0.75 ? vi : han;
         });
         el.addEventListener('mouseleave', function () {
-          turnTo(latin);
+          el.textContent = latin;
         });
       })();
     </script>

@@ -45,25 +45,9 @@
   color: $color-title;
   font-size: 40px;
   cursor: default;
-  transform: perspective(800px) rotateX(0deg);
-  transition: transform 0.26s ease-out;
 
   @media (min-width: $breakpoint-lg) {
     font-size: 72px;
-  }
-}
-
-// Signboard flip: tip up to edge-on, swap the text, tip back down.
-.header-title.is-turning {
-  transform: perspective(800px) rotateX(90deg);
-  transition: transform 0.26s ease-in;
-}
-
-@media (prefers-reduced-motion: reduce) {
-  .header-title,
-  .header-title.is-turning {
-    transform: none;
-    transition: none;
   }
 }
 .header-text { color: $color-foreground; }
