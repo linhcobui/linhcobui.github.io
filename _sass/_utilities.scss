@@ -51,21 +51,6 @@
   }
 }
 .header-text { color: $color-foreground; }
-
-.balls {
-  display: flex;
-  gap: $spacer-1;
-  max-width: 340px;
-}
-
-.ball {
-  flex: 1 1 0;
-  max-width: 104px;
-  aspect-ratio: 1 / 1;
-  border-radius: 50%;
-  object-fit: cover;
-  background-color: $color-foreground;
-}
 .header-social { fill: $color-foreground; }
 .header-social-accent { fill: $color-dot-accent; }
 .header-link:hover { color: $color-nav-link !important; } // used for navigation links on homepage
