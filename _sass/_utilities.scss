@@ -51,6 +51,13 @@
   }
 }
 .header-text { color: $color-foreground; }
+
+.portrait {
+  display: block;
+  width: 100%;
+  max-width: 340px;
+  height: auto;
+}
 .header-social { fill: $color-foreground; }
 .header-social-accent { fill: $color-dot-accent; }
 .header-link:hover { color: $color-nav-link !important; } // used for navigation links on homepage
