@@ -101,16 +101,10 @@
 
         function turnTo(text) {
           clearTimeout(timer);
-          el.classList.remove('is-turned');
           el.classList.add('is-turning');
           timer = setTimeout(function () {
             el.textContent = text;
-            el.classList.add('no-transition');
             el.classList.remove('is-turning');
-            el.classList.add('is-turned');
-            void el.offsetWidth;
-            el.classList.remove('no-transition');
-            el.classList.remove('is-turned');
           }, HALF_TURN_MS);
         }
 

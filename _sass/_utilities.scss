@@ -53,22 +53,15 @@
   }
 }
 
-// Signboard flip: turn edge-on, swap the text, keep turning in the same direction.
+// Signboard flip: tip up to edge-on, swap the text, tip back down.
 .header-title.is-turning {
   transform: perspective(800px) rotateX(90deg);
   transition: transform 0.26s ease-in;
 }
 
-.header-title.is-turned {
-  transform: perspective(800px) rotateX(-90deg);
-}
-
-.header-title.no-transition { transition: none; }
-
 @media (prefers-reduced-motion: reduce) {
   .header-title,
-  .header-title.is-turning,
-  .header-title.is-turned {
+  .header-title.is-turning {
     transform: none;
     transition: none;
   }
