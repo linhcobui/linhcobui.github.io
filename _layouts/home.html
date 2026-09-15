@@ -96,11 +96,29 @@
         var latin = el.dataset.nameLatin;
         var vi = el.dataset.nameVi;
         var han = el.dataset.nameHan;
+        var HALF_TURN_MS = 260;
+        var timer;
+
+        function turnTo(text) {
+          clearTimeout(timer);
+          el.classList.remove('is-turned');
+          el.classList.add('is-turning');
+          timer = setTimeout(function () {
+            el.textContent = text;
+            el.classList.add('no-transition');
+            el.classList.remove('is-turning');
+            el.classList.add('is-turned');
+            void el.offsetWidth;
+            el.classList.remove('no-transition');
+            el.classList.remove('is-turned');
+          }, HALF_TURN_MS);
+        }
+
         el.addEventListener('mouseenter', function () {
-          el.textContent = Math.random() < 0.75 ? vi : han;
+          turnTo(Math.random() < 0.75 ? vi : han);
         });
         el.addEventListener('mouseleave', function () {
-          el.textContent = latin;
+          turnTo(latin);
         });
       })();
     </script>

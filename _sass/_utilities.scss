@@ -45,13 +45,37 @@
   color: $color-title;
   font-size: 40px;
   cursor: default;
+  transform: perspective(800px) rotateX(0deg);
+  transition: transform 0.26s ease-out;
 
   @media (min-width: $breakpoint-lg) {
     font-size: 72px;
   }
 }
+
+// Signboard flip: turn edge-on, swap the text, keep turning in the same direction.
+.header-title.is-turning {
+  transform: perspective(800px) rotateX(90deg);
+  transition: transform 0.26s ease-in;
+}
+
+.header-title.is-turned {
+  transform: perspective(800px) rotateX(-90deg);
+}
+
+.header-title.no-transition { transition: none; }
+
+@media (prefers-reduced-motion: reduce) {
+  .header-title,
+  .header-title.is-turning,
+  .header-title.is-turned {
+    transform: none;
+    transition: none;
+  }
+}
 .header-text { color: $color-foreground; }
 .header-social { fill: $color-foreground; }
+.link-social:hover .header-social { fill: $color-nav-link; }
 .header-social-accent { fill: $color-dot-accent; }
 .header-link:hover { color: $color-nav-link !important; } // used for navigation links on homepage
 .text-accent { color: $color-text-accent; } // used for date in post list and home link
